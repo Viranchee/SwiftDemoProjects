@@ -26,6 +26,7 @@
 		008E46EA24015491002326E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008E46EC24015491002326E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		008E46F824017786002326E3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		008E46FA2401B01F002326E3 /* PushNotificationsDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotificationsDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		008E46DD2401548D002326E3 /* PushNotificationsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				008E46FA2401B01F002326E3 /* PushNotificationsDemo.entitlements */,
 				008E46DE2401548D002326E3 /* AppDelegate.swift */,
 				008E46E02401548D002326E3 /* SceneDelegate.swift */,
 				008E46E22401548D002326E3 /* ContentView.swift */,
@@ -290,6 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationsDemo/PushNotificationsDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PushNotificationsDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 499NLNJYQN;
@@ -310,6 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PushNotificationsDemo/PushNotificationsDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PushNotificationsDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 499NLNJYQN;
