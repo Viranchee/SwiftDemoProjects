@@ -46,7 +46,9 @@
 				008E46DD2401548D002326E3 /* PushNotificationsDemo */,
 				008E46DC2401548D002326E3 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		008E46DC2401548D002326E3 /* Products */ = {
 			isa = PBXGroup;
