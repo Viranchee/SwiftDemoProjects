@@ -14,6 +14,10 @@
 		008E46E824015491002326E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008E46E724015491002326E3 /* Preview Assets.xcassets */; };
 		008E46EB24015491002326E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008E46E924015491002326E3 /* LaunchScreen.storyboard */; };
 		008E46F924017786002326E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 008E46F824017786002326E3 /* README.md */; };
+		00D05493240301E500030C5C /* test.apns in Resources */ = {isa = PBXBuildFile; fileRef = 00D05492240301E500030C5C /* test.apns */; };
+		00D05495240302FA00030C5C /* notification2.apns in Resources */ = {isa = PBXBuildFile; fileRef = 00D05494240302FA00030C5C /* notification2.apns */; };
+		00D054972403037C00030C5C /* badge.apns in Resources */ = {isa = PBXBuildFile; fileRef = 00D054962403037C00030C5C /* badge.apns */; };
+		00D054992403061700030C5C /* silentNotification.apns in Resources */ = {isa = PBXBuildFile; fileRef = 00D054982403061700030C5C /* silentNotification.apns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		008E46EC24015491002326E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		008E46F824017786002326E3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		008E46FA2401B01F002326E3 /* PushNotificationsDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushNotificationsDemo.entitlements; sourceTree = "<group>"; };
+		00D05492240301E500030C5C /* test.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.apns; sourceTree = "<group>"; };
+		00D05494240302FA00030C5C /* notification2.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = notification2.apns; sourceTree = "<group>"; };
+		00D054962403037C00030C5C /* badge.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = badge.apns; sourceTree = "<group>"; };
+		00D054982403061700030C5C /* silentNotification.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = silentNotification.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 			children = (
 				008E46FA2401B01F002326E3 /* PushNotificationsDemo.entitlements */,
 				008E46DE2401548D002326E3 /* AppDelegate.swift */,
+				00D0549A240306A900030C5C /* DemoNotifications */,
 				008E46E02401548D002326E3 /* SceneDelegate.swift */,
 				008E46E22401548D002326E3 /* ContentView.swift */,
 				008E46E424015491002326E3 /* Assets.xcassets */,
@@ -80,6 +89,17 @@
 				008E46E724015491002326E3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00D0549A240306A900030C5C /* DemoNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				00D05492240301E500030C5C /* test.apns */,
+				00D05494240302FA00030C5C /* notification2.apns */,
+				00D054962403037C00030C5C /* badge.apns */,
+				00D054982403061700030C5C /* silentNotification.apns */,
+			);
+			path = DemoNotifications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +161,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				008E46EB24015491002326E3 /* LaunchScreen.storyboard in Resources */,
+				00D05495240302FA00030C5C /* notification2.apns in Resources */,
 				008E46E824015491002326E3 /* Preview Assets.xcassets in Resources */,
+				00D054972403037C00030C5C /* badge.apns in Resources */,
 				008E46F924017786002326E3 /* README.md in Resources */,
+				00D054992403061700030C5C /* silentNotification.apns in Resources */,
 				008E46E524015491002326E3 /* Assets.xcassets in Resources */,
+				00D05493240301E500030C5C /* test.apns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
