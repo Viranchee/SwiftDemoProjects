@@ -10,13 +10,14 @@ import UIKit
 import UserNotifications
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder {
   
+}
+
+extension AppDelegate: UIApplicationDelegate {
+    
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    let center = UNUserNotificationCenter.current()
-    center.requestAuthorization(options: [.alert, .badge, .sound, .sound, .provisional]) { (granted, error) in
-      
-    }
+ 
     application.registerForRemoteNotifications()
     return true
   }
@@ -35,3 +36,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
 }
 
+extension AppDelegate {
+  private func registerForPushNotifications() {
+    let center = UNUserNotificationCenter.current()
+     center.requestAuthorization(options: [.alert, .badge, .sound, .sound, .provisional]) { (granted, error) in
+       
+     }
+  }
+}
