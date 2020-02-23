@@ -1,0 +1,9 @@
+{
+    "Simulator Target Bundle": "com.viranchee.testapp",
+    "aps": {
+        "alert": {
+            "body": "Just take A Look",
+            "title": "YoBro"
+        }
+    }
+}
