@@ -10,7 +10,7 @@ Excerpt From: “Push Notifications by Tutorials”. RayWenderlich.
 2. With a paid Apple Developer Account, create Identifier from "https://developer.apple.com/account/resources/identifiers/list" with Push Notification capability
 3. Update Bundle Identifier and Team which has Push Notification capability
 4. Run the project on Device or Simulator
-
+5. If running Xcode 11.4 beta, drag and drop various APNS files in the project on the simulator to trigger notification
 
 ### History
 
