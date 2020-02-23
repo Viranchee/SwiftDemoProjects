@@ -25,16 +25,16 @@ Limitation: 4KB (4096B) payload max size
 
 ### Notifications on Device:
 
-##### Notification 1 Example Preview
+#### Notification 1 Example Preview
 
 APNS File
 
 Image
 
-Image ![/Images/notification1.png]
+Image ![noti1](/Images/notification1.png)
 
-##### Notification 2 Example Preview
+#### Notification 2 Example Preview
 
 APNS File
 
-Image ![/Images/notification2.png]
+Image ![noti2](/Images/notification2.png)
