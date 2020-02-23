@@ -19,6 +19,7 @@ extension AppDelegate: UIApplicationDelegate {
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
  
     application.registerForRemoteNotifications()
+    registerForPushNotifications()
     return true
   }
   
@@ -40,7 +41,9 @@ extension AppDelegate {
   private func registerForPushNotifications() {
     let center = UNUserNotificationCenter.current()
      center.requestAuthorization(options: [.alert, .badge, .sound, .sound, .provisional]) { (granted, error) in
-       
+      center.getNotificationSettings { (settings) in
+        
+      }
      }
   }
 }
