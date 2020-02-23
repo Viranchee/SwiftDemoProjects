@@ -1,0 +1,12 @@
+{
+    "Simulator Target Bundle": "com.viranchee.testapp",
+    "aps": {
+      "category": "content_added_notification",
+      "alert": {
+        "title": "Photos",
+        "body": "Antoine added something new - take a look"
+      },
+      "mutable-content": 1
+    },
+    "image_url": "https://www.example.com/image_url"
+}
