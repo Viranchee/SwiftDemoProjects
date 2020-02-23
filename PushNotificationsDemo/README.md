@@ -29,12 +29,10 @@ Limitation: 4KB (4096B) payload max size
 
 [APNS File](/PushNotificationsDemo/PushNotificationsDemo/DemoNotifications/notification2.apns)
 
-Image
-
-Image ![noti1](/PushNotificationsDemo/Images/notification1.png)
+![noti1](/PushNotificationsDemo/Images/notification1.png)
 
 #### Notification 2 Example Preview
 
 [APNS File](/PushNotificationsDemo/PushNotificationsDemo/DemoNotifications/silentNotification.apns)
 
-Image ![noti2](/PushNotificationsDemo/Images/notification2.png)
+![noti2](/PushNotificationsDemo/Images/notification2.png)
