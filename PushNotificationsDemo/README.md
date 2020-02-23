@@ -23,16 +23,12 @@ Also, JSON simplicity allows for extensibility in the future
 
 Limitation: 4KB (4096B) payload max size
 
-### Notifications on Device:
+### Payloads
 
-#### Notification 1 Example Preview
+[Notification Payloads](/PushNotificationsDemo/PushNotificationsDemo/DemoNotifications/)
 
-[APNS File](/PushNotificationsDemo/PushNotificationsDemo/DemoNotifications/notification2.apns)
+### Example Notifications
 
 ![noti1](/PushNotificationsDemo/Images/notification1.png)
-
-#### Notification 2 Example Preview
-
-[APNS File](/PushNotificationsDemo/PushNotificationsDemo/DemoNotifications/silentNotification.apns)
 
 ![noti2](/PushNotificationsDemo/Images/notification2.png)
