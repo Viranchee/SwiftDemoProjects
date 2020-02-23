@@ -13,10 +13,10 @@ struct ContentView: View {
   var body: some View {
     VStack {
       Button("Grant Permission") {
-        print("YO!")
+        print("Button1 Clicked!")
       }
       Button("Default Button") {
-        print("Yo Bro")
+        print("Button2 Clicked")
       }
       Text("Hello, World!")
     }
