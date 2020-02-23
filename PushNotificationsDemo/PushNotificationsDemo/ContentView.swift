@@ -13,7 +13,7 @@ struct ContentView: View {
   var body: some View {
     VStack {
       Button("Grant Permission") {
-        askNotificationPermission()
+        print("YO!")
       }
       Button("Default Button") {
         print("Yo Bro")
@@ -24,12 +24,6 @@ struct ContentView: View {
   }
 }
 
-func askNotificationPermission() {
-  let center = UNUserNotificationCenter.current()
-  center.requestAuthorization(options: [.alert, .sound]) { (granted, error) in
-    
-  }
-}
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
