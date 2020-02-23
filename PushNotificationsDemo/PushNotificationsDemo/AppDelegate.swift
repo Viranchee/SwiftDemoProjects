@@ -18,7 +18,6 @@ extension AppDelegate: UIApplicationDelegate {
     
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
  
-    application.registerForRemoteNotifications()
     registerForPushNotifications()
     return true
   }
@@ -30,7 +29,8 @@ extension AppDelegate: UIApplicationDelegate {
   }
   
   func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-    
+    let token = deviceToken.reduce("") { $0 + String(format: "%02x", $1) }
+    assert(deviceToken == token.data(using: .utf8))
   }
   func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
     
@@ -42,6 +42,12 @@ extension AppDelegate {
     let center = UNUserNotificationCenter.current()
      center.requestAuthorization(options: [.alert, .badge, .sound, .sound, .provisional]) { (granted, error) in
       center.getNotificationSettings { (settings) in
+        guard settings.authorizationStatus == .authorized else { return }
+        DispatchQueue.main.async {
+          /// Need to call this on Main thread
+          UIApplication.shared.registerForRemoteNotifications()
+          
+        }
         
       }
      }
