@@ -20,3 +20,5 @@ Cons: Hard for humans to understand, decode, debug
 
 Then, Apple switched to JSON, because easier construction and debugging.
 Also, JSON simplicity allows for extensibility in the future 
+
+Limitation: 4KB (4096B) payload max size
