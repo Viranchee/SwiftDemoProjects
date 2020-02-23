@@ -1,0 +1,10 @@
+{
+  "Simulator Target Bundle": "com.viranchee.testapp",
+  "aps": {
+    "alert": {
+        "title": "Your food is done.",
+        "body": "Be careful, it's really hot!"
+    },
+    "badge": 12
+  }
+}
