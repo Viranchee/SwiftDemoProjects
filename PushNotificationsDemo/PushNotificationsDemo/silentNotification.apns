@@ -1,0 +1,7 @@
+{
+  "Simulator Target Bundle": "com.viranchee.testapp",
+  "aps": {
+    "content-available": 1,
+  }
+}
+
